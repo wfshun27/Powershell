@@ -1,3 +1,3 @@
 # Powershell
 
-List of PowerShell Script
+Example of PowerShell Script
