@@ -1,3 +1,5 @@
+# This script is designed to automate the process of moving from one tab to another in a web browser and refreshing the active page.
+
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 while(1 -eq 1){

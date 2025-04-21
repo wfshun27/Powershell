@@ -1,4 +1,6 @@
-﻿Start-Process -FilePath msedge -ArgumentList '--new-window www.youtube.com'
+﻿# This script is designed to automate the process of switching tabs in a web browser (like Opera or Firefox) and refreshing the active page.
+
+Start-Process -FilePath msedge -ArgumentList '--new-window www.youtube.com'
 Start-Process -FilePath msedge -ArgumentList '--new-window www.tiktok.com'
 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
