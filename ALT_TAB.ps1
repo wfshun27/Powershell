@@ -5,7 +5,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 while(1 -eq 1){
 
-
 	$wshell=New-Object -ComObject wscript.shell;
 	$wshell.AppActivate('iexplorer'); # Activate on Opera browser
     #$wshell.AppActivate('firefox'); # Activate on Opera browser
@@ -17,4 +16,5 @@ while(1 -eq 1){
     Start-Sleep -Seconds 15 
     #Sleep 5
 	$wshell.SendKeys('{F5}'); # F5 to refresh active page
+
 }
